@@ -1,0 +1,10 @@
+{
+  "name": "ai-code-structure-eval",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:mixed": "node scripts/prepare-run.mjs --variant mixed --task modal-count",
+    "prepare:separated": "node scripts/prepare-run.mjs --variant separated --task modal-count",
+    "grade": "node scripts/grade-run.mjs"
+  }
+}
